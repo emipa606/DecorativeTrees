@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>DecorativeTreeResearch</defName>
+    <label>Decorative tree</label>
+    <description>Sow unusual trees in special pots</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0.5</researchViewY>
+    <prerequisites>
+      <li>TreeSowing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ThingDef Name="DecorativeTreePot">
+    <category>Building</category>
+    <thingClass>Building_PlantGrower</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    <designationCategory>Furniture</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <researchPrerequisites>
+      <li>DecorativeTreeResearch</li>
+    </researchPrerequisites>
+    <defName>DecorativeTreePot</defName>
+    <label>Decorative tree pot</label>
+    <description>Special alien soil is suitable only for growing specially modified trees. It's too expensive and unsuitable for the cultivation of regular plants. The small volume of the pot does not allow trees to grow too big, which makes it possible to be under a roof</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/PotForDecorativeTree</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.7, 0.2, 0.7)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.1,0.1,0.8,0.8)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.20</fillPercent>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>0.5</Flammability>
+      <Beauty>3</Beauty>
+      <SellPriceFactor>0.70</SellPriceFactor>
+    </statBases>
+    <size>(1,1)</size>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <Silver>100</Silver>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+    <fertility>1.0</fertility>
+    <designationHotKey>Misc9</designationHotKey>
+    <building>
+      <defaultPlantToGrow>PartyTree</defaultPlantToGrow>
+      <sowTag>sowTagDecorativeTree</sowTag>
+    </building>
+    <rotatable>false</rotatable>
+    <uiIconOffset>(0, 0)</uiIconOffset>
+  </ThingDef>
+  <ThingDef Name="DecorativeTree" Abstract="True">
+    <category>Plant</category>
+    <thingClass>DecorativeTreeByCattleya.Plant_DecorativeTree</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <tickerType>Long</tickerType>
+    <selectable>true</selectable>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutPlant</shaderType>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.15)</volume>
+        <offset>(0,0,-0.38)</offset>
+      </shadowData>
+      <drawSize>(1.8, 1.8)</drawSize>
+    </graphicData>
+    <plant>
+      <fertilityMin>0.7</fertilityMin>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>100</sowWork>
+      <lifespanDaysPerGrowDays>3</lifespanDaysPerGrowDays>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>false</interferesWithRoof>
+      <dieIfLeafless>true</dieIfLeafless>
+      <visualSizeRange>0.8~2.0</visualSizeRange>
+      <sowMinSkill>6</sowMinSkill>
+      <sowTags>
+        <li>sowTagDecorativeTree</li>
+      </sowTags>
+      <sowResearchPrerequisites>
+        <li>DecorativeTreeResearch</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.05</topWindExposure>
+      <mustBeWildToSow>false</mustBeWildToSow>
+      <harvestWork>1000</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestYield>20</harvestYield>
+      <harvestedThingDef>Chocolate</harvestedThingDef>
+      <harvestFailable>false</harvestFailable>
+    </plant>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Beauty>30</Beauty>
+      <Nutrition>1.25</Nutrition>
+    </statBases>
+    <drawerType>MapMeshOnly</drawerType>
+    <useHitPoints>True</useHitPoints>
+    <fillPercent>0.25</fillPercent>
+    <pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <passability>PassThroughOnly</passability>
+    <pathCost>42</pathCost>
+    <blockWind>true</blockWind>
+  </ThingDef>
+  <ThingDef Name="SilverTree" ParentName="DecorativeTree">
+    <defName>SiverTree</defName>
+    <label>Silver tree</label>
+    <description>It's an unusual decorative tree, which raises beauty and gives some silver</description>
+    <graphicData>
+      <texPath>Things/Plant/silverTree_withoutLeaf</texPath>
+    </graphicData>
+    <plant>
+      <growMinGlow>0.10</growMinGlow>
+      <growOptimalGlow>0.50</growOptimalGlow>
+      <growDays>30</growDays>
+      <harvestAfterGrowth>0.10</harvestAfterGrowth>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <immatureGraphicPath>Things/Plant/silverTree_smallStage</immatureGraphicPath>
+      <harvestWork>1000</harvestWork>
+      <harvestYield>100</harvestYield>
+      <harvestedThingDef>Silver</harvestedThingDef>
+      <harvestFailable>false</harvestFailable>
+    </plant>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <comps>
+      <li Class="DecorativeTreeByCattleya.CompProperties_DecorativeTrees">
+        <harvestGraphicPath>Things/Plant/silverTree_harvest</harvestGraphicPath>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef Name="PartyTree" ParentName="DecorativeTree">
+    <thingClass>DecorativeTreeByCattleya.Plant_PartyTree</thingClass>
+    <defName>PartyTree</defName>
+    <label>Party tree</label>
+    <description>Soft fir tree with a pleasant smell will decorate any interior well. And if you decorate it, you can throw a party</description>
+    <graphicData>
+      <texPath>Things/Plant/partyTree_withoutLeaf</texPath>
+    </graphicData>
+    <plant>
+      <growMinGlow>0.30</growMinGlow>
+      <growOptimalGlow>0.50</growOptimalGlow>
+      <growDays>40</growDays>
+      <harvestAfterGrowth>0.10</harvestAfterGrowth>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <immatureGraphicPath>Things/Plant/partyTree_smallStage</immatureGraphicPath>
+      <harvestWork>1000</harvestWork>
+      <harvestYield>40</harvestYield>
+      <harvestedThingDef>WoodLog</harvestedThingDef>
+      <harvestFailable>false</harvestFailable>
+    </plant>
+    <comps>
+      <li Class="DecorativeTreeByCattleya.CompProperties_DecorativeTrees">
+        <harvestGraphicPath>Things/Plant/partyTree_harvest</harvestGraphicPath>
+      </li>
+    </comps>
+  </ThingDef>
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>silver_tree_stalk</defName>
+    <label>Silver tree stalk</label>
+    <description>Unusual tree stalk, very valuable. It has real silver instead of fruit! Can be sown only in the Decorative Tree Pot</description>
+    <sources>
+      <li>SiverTree</li>
+    </sources>
+    <tradeTags>
+      <li>ExoticSeeds</li>
+    </tradeTags>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <Mass>0.1</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <MarketValue>500</MarketValue>
+      <SellPriceFactor>0.05</SellPriceFactor>
+    </statBases>
+    <seed>
+      <harvestFactor>1.0</harvestFactor>
+      <seedFactor>0</seedFactor>
+      <baseChance>0</baseChance>
+      <extraChance>0</extraChance>
+    </seed>
+    <stackLimit>5</stackLimit>
+    <graphicData>
+      <texPath>Things/Item/Seeds/SilverTree</texPath>
+    </graphicData>
+  </SeedsPlease.SeedDef>
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>party_tree_stalk</defName>
+    <label>Party tree stalk</label>
+    <description>Unusual tree stalk, very valuable. Party tree can be decorated and you can throw a party! Can be sown only in the Decorative Tree Pot</description>
+    <sources>
+      <li>PartyTree</li>
+    </sources>
+    <tradeTags>
+      <li>ExoticSeeds</li>
+    </tradeTags>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <Mass>0.1</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <MarketValue>500</MarketValue>
+      <SellPriceFactor>0.05</SellPriceFactor>
+    </statBases>
+    <seed>
+      <harvestFactor>1</harvestFactor>
+      <seedFactor>0</seedFactor>
+      <baseChance>0</baseChance>
+      <extraChance>0</extraChance>
+    </seed>
+    <stackLimit>5</stackLimit>
+    <graphicData>
+      <texPath>Things/Item/Seeds/PartyTree</texPath>
+    </graphicData>
+  </SeedsPlease.SeedDef>
+</Defs>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Decorative trees</name>
+  <author>cattleya</author>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <packageId>cattleya.decorativetrees</packageId>
+  <loadAfter>
+    <li>skyarkhangel.HSK</li>
+    <li>notfood.SeedsPlease</li>
+  </loadAfter>
+  <url>
+  </url>
+  <!--
+  <modDependencies>
+    <li>
+      <packageId>notfood.SeedsPlease</packageId>
+      <displayName>SeedsPlease</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=935732834</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  -->
+  <description>
+In this mod two unusual trees were added which could be grown only in special pot. 
+I recomend use this mod with SeedsPlease mod, but it worked without too.
+
+Support me on patreon, it will motivate me to continue: https://www.patreon.com/cattleya . I public here some sketches, ideas, thoughts and anounces. Also be free to write me, maybe will draw some things for you for Rimworld! 
+
+All images in this mod are licensed under the CC BY-NC-SA 4.0 : https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+  </description>
+</ModMetaData>

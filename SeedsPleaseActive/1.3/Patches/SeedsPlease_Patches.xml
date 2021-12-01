@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>SeedsPlease</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="PlantProcessingTable"]/graphicData</xpath>
+          <value>
+            <graphicData>
+              <texPath>Things/Building/seedextractor</texPath>
+              <graphicClass>Graphic_Multi</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+              <drawSize>(3,1)</drawSize>
+              <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+              </damageData>
+              <shadowData>
+                <volume>(2.7, 0.3, 0.7)</volume>
+                <offset>(0, 0, 0)</offset>
+              </shadowData>
+            </graphicData>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

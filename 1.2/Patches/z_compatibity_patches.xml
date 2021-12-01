@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core SK</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SiverTree"]/plant/immatureGraphicPath</xpath>
+          <value>
+            <immatureGraphicPath>Things/Plant/silverTree_withoutLeaf</immatureGraphicPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="PartyTree"]/plant/immatureGraphicPath</xpath>
+          <value>
+            <immatureGraphicPath>Things/Plant/partyTree_withoutLeaf</immatureGraphicPath>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

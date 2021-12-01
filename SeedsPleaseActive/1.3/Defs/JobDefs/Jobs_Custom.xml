@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- <JobDef> -->
+  <!-- <defName>CutPlant</defName> -->
+  <!-- <driverClass>DecorativeTreeByCattleya.JobDriver_PlantCutWithSeeds_DecorativeTrees</driverClass> -->
+  <!-- <reportString>cutting TargetA.</reportString> -->
+  <!-- <allowOpportunisticPrefix>true</allowOpportunisticPrefix> -->
+  <!-- </JobDef> -->
+  <!-- <JobDef> -->
+  <!-- <defName>CutPlantDesignated</defName> -->
+  <!-- <driverClass>DecorativeTreeByCattleya.JobDriver_PlantCutDesignatedWithSeeds_DecorativeTrees</driverClass> -->
+  <!-- <reportString>cutting TargetA.</reportString> -->
+  <!-- <allowOpportunisticPrefix>true</allowOpportunisticPrefix> -->
+  <!-- </JobDef> -->
+  <JobDef>
+    <defName>GoToThrowParty</defName>
+    <driverClass>DecorativeTreeByCattleya.JobDriver_GoToThrowParty</driverClass>
+    <reportString>throw party</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  <JobDef>
+    <defName>Uninstall</defName>
+    <driverClass>DecorativeTreeByCattleya.JobDriver_Uninstall_DecorativeTrees</driverClass>
+    <reportString>uninstalling TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  <JobDef>
+    <defName>Deconstruct</defName>
+    <driverClass>DecorativeTreeByCattleya.JobDriver_Deconstruct_DecorativeTrees</driverClass>
+    <reportString>deconstructing TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  <JobDef>
+    <defName>HaulToContainer</defName>
+    <driverClass>DecorativeTreeByCattleya.JobDriver_HaulToContainer_DecorativeTrees</driverClass>
+    <reportString>hauling TargetA.</reportString>
+    <suspendable>false</suspendable>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+</Defs>

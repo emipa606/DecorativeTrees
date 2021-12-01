@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DecorativeTreePot.label>Горшок для декоративных деревьев</DecorativeTreePot.label>
+  <DecorativeTreePot.description>Особый инопланетный грунт годится только для выращивания специальным образом модифицированных деревьев. Слишком дорогой и неподходящий для выращивания обычных растений. Небольшой объем горшка не позволяет деревьям вырастать слишком большими, что позволяет находиться им под крышей</DecorativeTreePot.description>
+  <DecorativeTreePot_Blueprint.label>Горшок для декоративных деревьев (проект)</DecorativeTreePot_Blueprint.label>
+  <DecorativeTreePot_Blueprint_Install.label>Горшок для декоративных деревьев (проект)</DecorativeTreePot_Blueprint_Install.label>
+  <DecorativeTreePot_Frame.label>Горшок для декоративных деревьев (в процессе сборки)</DecorativeTreePot_Frame.label>
+  <DecorativeTreePot_Frame.description>Особый инопланетный грунт годится только для выращивания специальным образом модифицированных деревьев. Слишком дорогой и неподходящий для выращивания обычных растений</DecorativeTreePot_Frame.description>
+  <SiverTree.label>Серебряное дерево</SiverTree.label>
+  <SiverTree.description>Необычное декоративное дерево, увеличивает красоту и дает немного серебра</SiverTree.description>
+  <PartyTree.label>Праздничное дерево</PartyTree.label>
+  <PartyTree.description>Мягкая пихточка с приятным запахом хорошо украсит любой интерьер. А если ее нарядить, то можно устроить вечеринку</PartyTree.description>
+</LanguageData>
