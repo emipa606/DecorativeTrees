@@ -5,6 +5,8 @@
 Update of cattleyas mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2277253181
 
+- The user pashka have made a HD-texture pack for this mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2729580051]Decorative trees HD
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
@@ -37,9 +39,6 @@ Seed extractor workshop was redraw. You can't craft decorative tree stalks, it's
 
 All images in this mod are licensed under the CC BY-NC-SA 4.0 : https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-
-If you like this mod you can buy me coffee: https://ko-fi.com/artcattleya
-
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
@@ -50,5 +49,6 @@ If you like this mod you can buy me coffee: https://ko-fi.com/artcattleya
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 

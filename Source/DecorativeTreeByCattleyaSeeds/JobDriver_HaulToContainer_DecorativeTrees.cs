@@ -10,18 +10,7 @@ internal class JobDriver_HaulToContainer_DecorativeTrees : JobDriver_HaulToConta
 {
     private Thing _seed;
 
-    private new int Duration
-    {
-        get
-        {
-            if (Container == null || !(Container is Building))
-            {
-                return 0;
-            }
-
-            return Container.def.building.haulToContainerDuration;
-        }
-    }
+    private new int Duration => Container is not Building ? 0 : Container.def.building.haulToContainerDuration;
 
     protected override IEnumerable<Toil> MakeNewToils()
     {

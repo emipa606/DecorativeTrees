@@ -18,17 +18,18 @@ public class JobDriver_GoToThrowParty : JobDriver
             .FailOnDespawnedNullOrForbidden(TargetIndex.A);
         yield return Toils_General.Wait(10000).WithProgressBarToilDelay(TargetIndex.A)
             .FailOnDespawnedNullOrForbidden(TargetIndex.A);
-        var toil = new Toil();
-        toil.initAction = delegate
+        var toil = new Toil
         {
-            if (TargetA.Thing is Plant_PartyTree)
+            initAction = delegate
             {
-                var plant_PartyTree = (Plant_PartyTree)TargetA.Thing;
-                plant_PartyTree.PartyStartedNow();
-                Map.mapDrawer.MapMeshDirty(plant_PartyTree.Position, MapMeshFlag.Things);
-            }
+                if (TargetA.Thing is Plant_PartyTree tree)
+                {
+                    tree.PartyStartedNow();
+                    Map.mapDrawer.MapMeshDirty(tree.Position, MapMeshFlag.Things);
+                }
 
-            pawn.Map.lordsStarter.TryStartGathering(GatheringDefOf.Party);
+                pawn.Map.lordsStarter.TryStartGathering(GatheringDefOf.Party);
+            }
         };
         yield return toil;
     }
