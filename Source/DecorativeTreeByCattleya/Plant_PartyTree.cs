@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using RimWorld;
 using Verse;
 using Verse.AI;
 
@@ -96,7 +97,7 @@ public class Plant_PartyTree : Plant_DecorativeTree
         }
 
         IsDecoratedNow = false;
-        Map.mapDrawer.MapMeshDirty(Position, MapMeshFlag.Things);
+        Map.mapDrawer.MapMeshDirty(Position, MapMeshFlagDefOf.Things);
     }
 
     public override IEnumerable<FloatMenuOption> GetFloatMenuOptions(Pawn selPawn)

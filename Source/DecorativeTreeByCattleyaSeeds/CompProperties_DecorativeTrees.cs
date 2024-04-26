@@ -5,7 +5,7 @@ namespace DecorativeTreeByCattleya;
 
 public class CompProperties_DecorativeTrees : CompProperties
 {
-    public string harvestGraphicPath = "";
+    public readonly string harvestGraphicPath = "";
 
     public CompProperties_DecorativeTrees()
     {

@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using RimWorld;
-using Verse;
 using Verse.AI;
 
 namespace DecorativeTreeByCattleya;
@@ -25,7 +24,7 @@ public class JobDriver_GoToThrowParty : JobDriver
                 if (TargetA.Thing is Plant_PartyTree tree)
                 {
                     tree.PartyStartedNow();
-                    Map.mapDrawer.MapMeshDirty(tree.Position, MapMeshFlag.Things);
+                    Map.mapDrawer.MapMeshDirty(tree.Position, MapMeshFlagDefOf.Things);
                 }
 
                 pawn.Map.lordsStarter.TryStartGathering(GatheringDefOf.Party);
