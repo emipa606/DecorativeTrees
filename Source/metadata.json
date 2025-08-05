@@ -2,5 +2,14 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "LastXmlCleaning": "2025-08-05T19:43:34.1622767+02:00",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 18000,
+  "LinesOfXML": 8967,
+  "CodeBaseSize": 70,
+  "SocialImageSet": true,
+  "SearchTags": " decorations"
 }

@@ -1,14 +1,13 @@
-# DecorativeTrees
+# [Decorative trees (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2670019924)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of cattleyas mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2277253181
 
-- The user pashka have made a HD-texture pack for this mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2729580051]Decorative trees HD
+- The user pashka have made a HD-texture pack for this mod: [Decorative trees HD](https://steamcommunity.com/sharedfiles/filedetails/?id=2729580051)
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
@@ -17,7 +16,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2277253181
 In this mod was added two unusial trees, which can be grown only in special pod. 
 
 You can use this mod with or without seeds optionally. 
-I recommend use  https://steamcommunity.com/sharedfiles/filedetails/?id=935732834]SeedsPlease mod, but if you don't like seeds you can play without it. 
+I recommend use  [SeedsPlease](https://steamcommunity.com/sharedfiles/filedetails/?id=935732834) mod, but if you don't like seeds you can play without it. 
 
 New items:
 - Decorative tree pot: Special alien soil is suitable only for growing specially modified trees. It's too expensive and unsuitable for the cultivation of regular plants. The small volume of the pot does not allow trees to grow too big, which makes it possible to be under a roof
@@ -45,13 +44,12 @@ All images in this mod are licensed under the CC BY-NC-SA 4.0 : https://creative
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2670019924]![Image](https://img.shields.io/github/v/release/emipa606/DecorativeTrees?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/DecorativeTrees?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2670019924) | tags:  decorations

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Decorative tree pot -->
+  <DecorativeTreePot.label>Decorative tree pot</DecorativeTreePot.label>
+  <!-- EN: Special alien soil is suitable only for growing specially modified trees. It's too expensive and unsuitable for the cultivation of regular plants. The small volume of the pot does not allow trees to grow too big, which makes it possible to be under a roof -->
+  <DecorativeTreePot.description>Special alien soil is suitable only for growing specially modified trees. It's too expensive and unsuitable for the cultivation of regular plants. The small volume of the pot does not allow trees to grow too big, which makes it possible to be under a roof</DecorativeTreePot.description>
+  <!-- EN: Party tree -->
+  <PartyTree.label>Party tree</PartyTree.label>
+  <!-- EN: Soft fir tree with a pleasant smell will decorate any interior well. And if you decorate it, you can throw a party -->
+  <PartyTree.description>Soft fir tree with a pleasant smell will decorate any interior well. And if you decorate it, you can throw a party</PartyTree.description>
+  <!-- EN: Silver tree -->
+  <SiverTree.label>Silver tree</SiverTree.label>
+  <!-- EN: It's an unusual decorative tree, which raises beauty and gives some silver -->
+  <SiverTree.description>It's an unusual decorative tree, which raises beauty and gives some silver</SiverTree.description>
+</LanguageData>

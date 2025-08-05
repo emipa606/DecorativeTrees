@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 2597756600
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cf058985f0a204b7c327def1c70d8f58
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cf058985f0a204b7c327def1c70d8f58
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Plant/silverTree_smallStage.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Building/seedextractor_northm.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Building/seedextractor_south.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Building/seedextractor_east.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Plant/partyTree_smallStage.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Building/Furniture/PotForDecorativeTree_m.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Building/Furniture/PotForDecorativeTree.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Building/seedextractor_north.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Plant/partyTree_harvest.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Item/Seeds/SilverTree/SilverTree_seeds.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Item/Seeds/PartyTree/partyTree_seeds.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Plant/partyTree_withoutLeaf.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Building/seedextractor_southm.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Plant/silverTree_withoutLeaf.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Building/seedextractor_eastm.png
+- Assets/Data/Mlie.DecorativeTrees/Textures/Things/Plant/silverTree_harvest.png
+Dependencies: []

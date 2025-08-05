@@ -9,7 +9,7 @@ public class Plant_PartyTree : Plant_DecorativeTree
 {
     private const int PARTY_MAX_TIME = 20;
 
-    public bool IsDecoratedNow;
+    private bool IsDecoratedNow;
 
     private int partyCounter = 20;
 
