@@ -37,7 +37,7 @@ public class Plant_PartyTree : Plant_DecorativeTree
 
     private bool IsCanBeParty()
     {
-        return partyCounter >= 20;
+        return partyCounter >= PARTY_MAX_TIME;
     }
 
     public void PartyStartedNow()

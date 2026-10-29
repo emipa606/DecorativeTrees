@@ -4,7 +4,7 @@ using Verse;
 namespace DecorativeTreeByCattleya;
 
 [DefOf]
-public class JobDefs_PartyTree
+public static class JobDefs_PartyTree
 {
     public static JobDef GoToThrowParty;
 }
